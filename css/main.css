@@ -1,0 +1,114 @@
+/* Triplist.io Styles */
+
+/* Common */
+body {margin: 0px; padding:0px; font-family: "helvetica neue", helvetica, arial, sans-serif;}
+img {border: 0; vertical-align: bottom;}
+input[type=text], input[type=email]{padding: 10px; border:1px solid #bbb; border-radius: 2px;}
+
+h1,h2,h3 {margin-top: 5px; color: #222;}
+p {color: #555; font-size: 0.8em;}
+a {text-decoration: none;}
+
+header {background: url(/images/dark-bg.png); padding:10px;}
+footer {text-align: center;}
+footer p {color: #888; font-size: 0.7em;}
+
+#login {float: right;}
+#middle {padding: 10px;}
+#bottom {padding: 10px;}
+
+.large-text {font-size: 1.2em;}
+
+
+.button {
+	background-color: #FFED0F;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFED0F), color-stop(50%, #FFF24B), color-stop(50%, #FFDB00), color-stop(100%, #FFDF00));
+	background-image: -webkit-linear-gradient(top, #FFED0F 0%, #FFF24B 50%, #FFDB00 50%, #FFDF00 100%);
+	background-image: -moz-linear-gradient(top, #FFED0F 0%, #FFF24B 50%, #FFDB00 50%, #FFDF00 100%);
+	background-image: -ms-linear-gradient(top, #FFED0F 0%, #FFF24B 50%, #FFDB00 50%, #FFDF00 100%);
+	background-image: -o-linear-gradient(top, #FFED0F 0%, #FFF24B 50%, #FFDB00 50%, #FFDF00 100%);
+	background-image: linear-gradient(top, #FFED0F 0%, #FFF24B 50%, #FFDB00 50%, #FFDF00 100%);
+	border-radius: 3px;
+	/*border: 1px solid #FFD240;*/
+
+	-webkit-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+	box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
+	color: #000;
+	font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+	padding: 7px 21px;
+	text-shadow: 0 -1px 1px #FFFFFF;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #FFEB0F;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #FFEB0F), color-stop(50%, #FFC940), color-stop(50%, #FFDA00), color-stop(100%, #FFDD00));
+	background-image: -webkit-linear-gradient(bottom, #FFEB0F 0%, #FFC940 50%, #FFDA00 50%, #FFDD00 100%);
+	background-image: -moz-linear-gradient(bottom, #FFEB0F 0%, #FFC940 50%, #FFDA00 50%, #FFDD00 100%);
+	background-image: -ms-linear-gradient(bottom, #FFEB0F 0%, #FFC940 50%, #FFDA00 50%, #FFDD00 100%);
+	background-image: -o-linear-gradient(bottom, #FFEB0F 0%, #FFC940 50%, #FFDA00 50%, #FFDD00 100%);
+	background-image: linear-gradient(bottom, #FFEB0F 0%, #FFC940 50%, #FFDA00 50%, #FFDD00 100%);
+	text-shadow: 0 -1px 1px #FFFFFF;
+	cursor: pointer;
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) {
+	/* Typography
+	h1 {font-size: 1em;}
+	h2 {font-size: 0.8em;}
+	h3 {font-size: 0.6em;}*/
+
+	/* Elements */
+	#top {background: url(/images/passport-stamps-sml.png); width:100%; height: 150px;}
+	#email {width:280px;}
+
+	/* Classes */
+	.box {width:100%;}
+	.padding {padding: 10px;}
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) {
+	/* Typography
+	h1 {font-size: 1.2em;}
+	h2 {font-size: 1em;}
+	h3 {font-size: 0.8em;}*/
+
+	/* Layout */
+	section {width:740px; margin:0 auto;}
+
+	/* Elements */
+	#top {background: url(/images/passport-stamps-sml.png); width:100%; height: 200px;}
+	#email {width:300px;}
+
+	/* Classes */
+	.clear {clear: both;}
+	.box {width:240px; float: left;}
+	.box img {width:100%;}
+	.middle {padding:0 10px;}
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+	/* Typography
+	h1 {font-size: 1.5em;}
+	h2 {font-size: 1.3em;}
+	h3 {font-size: 1.1em;}*/
+
+	/* Layout */
+	section {width:940px; margin:0 auto;}
+
+	/* Elements */
+	#top {background: url(/images/passport-stamps.png); width:100%; height: 400px;}
+	#email {width:300px;}
+
+	/* Classes */
+	.clear {clear: both;}
+	.box {width:300px; float: left;}
+	.middle {padding:0 20px;}
+}
+
+
+
+
